@@ -45,11 +45,6 @@ $resetBtn.addEventListener("click", () => {
 $toggleBtn.addEventListener("click", () => {
   $box = document.querySelectorAll("div:not(:first-child)");
   $box.forEach((element) => {
-    // if (element.classList.contains("box")) {
-    //   element.classList.remove("box");
-    // } else {
-    //   element.classList.add("box");
-    // }
     element.classList.toggle("box");
   });
 });
