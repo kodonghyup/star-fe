@@ -171,4 +171,4 @@ var deleteTodo = 'pizza';
 var newTodos = todos.filter(function(toods) {
   return todo !== delteTodo;
 });
-console.log(newTodo);
+console.log(newTodo);5
