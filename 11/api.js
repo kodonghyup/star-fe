@@ -1,6 +1,6 @@
 function getFetch(url, callback) {
     const headers = {
-        Authorization: 'KakaoAK ad1eb3ae6a7731c9d17a6c0f88a5fed6',
+        Authorization: 'KakaoAK e49144820ffb0ba340afbc70809df666',
     };
 
     fetch(url, { headers })
